@@ -11,12 +11,12 @@ body {
 }
 
 h1{
-    font-size: 96px;
+    font-size: 100px;
     font-family: var(--heading-font-family);
 }
 
 h2{
-    font-size: 20px;
+    font-size: 18px;
     font-family: var(--default-font-family);
 }
 
@@ -31,6 +31,7 @@ color: white;
 font-weight: 400;
 text-decoration: none;
 border-radius: 4px;
-line-height: 27px;
+line-height: 22px;
 padding: 12px 20px;
+margin-top: 20px;
 }
