@@ -1,0 +1,36 @@
+:root {
+    --branding-color: #6C63FF;
+    --primary-color: #F9F7FE;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: ;
+}
+
+h1{
+    font-size: 96px;
+    font-family: var(--heading-font-family);
+}
+
+h2{
+    font-size: 20px;
+    font-family: var(--default-font-family);
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button {
+background-color: var(--branding-color);
+color: white;
+font-weight: 400;
+text-decoration: none;
+border-radius: 4px;
+line-height: 27px;
+padding: 12px 20px;
+}
