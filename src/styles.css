@@ -48,23 +48,25 @@ padding: 20px 30px;
 margin-top: 100px;
 }
 
-.about-btn {
-    color: blue;
-    border: solid 1px blue;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 10px;
-    line-height: 27px;
-    padding: 20px 30px;
-    margin-top: 100px;
-    }
 
     .row {
         display: flex;
         flex-direction: column;
     }
 
-    .yoga_img {
-        width: 50%;
+    .img {
+        width: 100%;
+    }
+
+    .learn_more {
+        background-color: white;
+        color:#6C63FF;
+        padding: 12px 20px;
+        border-radius: 4px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .project_description {
+        
     }
