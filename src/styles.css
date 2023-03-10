@@ -5,34 +5,47 @@
     --default-font-family: "Poppins", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  text-align: center;
+}
+
 .hero {
     text-align: center;
-    padding: 160px 20px;
+    padding: 140px 20px;
 }
 
 .hero h1{
     font-size: 96px;
     font-family: var(--heading-font-family);
+    line-height: 1;
 }
 
 .hero h2{
-    font-size: 30px;
+    font-size: 32px;
     font-family: var(--default-font-family);
-    padding: 30px 40px;
-    margin-bottom: 50px;
+    padding: 30px 30px;
+    margin-bottom: 60px;
 }
 
 .hero p{
     font-size: 36px;
     font-weight: bold;
-    padding: 30px;
+    padding: 20px;
 }
 
 .contact_btn {
 background-color: var(--branding-color);
 font-family: var(--default-font-family);
 color: white;
-font-size: 20px;
+font-size: 24px;
 font-weight: bold;
 text-decoration: none;
 border-radius: 10px;
@@ -41,15 +54,27 @@ padding: 20px 30px;
 }
 
     .project_description {
-        border: 1px solid black;
         text-align: center;
         line-height: 25px;
-        margin: 80px 15px;  
+        margin: 100px 15px;  
         margin-bottom: 50px;
 }
 
+@media (max-width:900px) {
+
+   .hero {
+        padding: 80px 20px;
+    }
+
+    .project_description {
+        text-align: center;
+        padding: 0;
+    }
+}
+
     .img-fluid {
-        width: 100%;
+        width: 80%;
+        align-items: center;
     }
 
   .feature{
@@ -68,6 +93,8 @@ padding: 20px 30px;
         border: solid 2px #6C63FF;
         padding: 15px 20px;
         border-radius: 4px;
+        font-size: medium;
         font-weight: 600;
         text-decoration: none;
+        margin-top: 20px 20px;
     }
