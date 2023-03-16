@@ -19,7 +19,7 @@ h6 {
 
 .content-container {
   text-align: center;
-  padding: 140px 20px;
+  padding: 80px 20px;
   background-color: #F9F7FE;
 }
 
@@ -39,19 +39,29 @@ h6 {
 .content-container p {
   font-size: 36px;
   font-weight: bold;
-  padding: 20px;
+  text-align: center;
 }
 
-.contact_btn {
+.btn-branding {
   background-color: var(--branding-color);
   font-family: var(--default-font-family);
   color: white;
   font-size: 24px;
-  font-weight: bold;
   text-decoration: none;
   border-radius: 10px;
   line-height: 27px;
   padding: 20px 30px;
+}
+
+.btn-branding-outline {
+  background-color: white;
+  color: #6c63ff;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-size: medium;
+
+  text-decoration: none;
+  margin-top: 20px 20px;
 }
 
 .project_description {
@@ -73,9 +83,10 @@ h6 {
 }
 
 .img-fluid {
-  width: 80%;
+  width: 50%;
   align-items: center;
 }
+
 
 .feature {
   background-color: #8a2be2;
@@ -85,24 +96,6 @@ h6 {
   font-weight: 400;
   border-radius: 5px;
   line-height: 40px;
-}
-.learn_more_btn {
-  background-color: white;
-  color: #6c63ff;
-  border: solid 2px #6c63ff;
-  padding: 15px 20px;
-  border-radius: 4px;
-  font-size: medium;
-  font-weight: 600;
-  text-decoration: none;
-  margin-top: 20px 20px;
-}
-
-.about-link {
-  font-size: 20px;
-  padding: 50px 15px;
-  color: var (--primary-color);
-  text-align: center;
 }
 
 
