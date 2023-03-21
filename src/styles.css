@@ -15,7 +15,7 @@ h2 {
 
 .hero {
   text-align: center;
-  padding: 80px 20px;
+  padding: 80px 15px;
   background-color: #F9F7FE;
 }
 
@@ -35,7 +35,7 @@ h2 {
   font-size: 32px;
   font-family: var(--heading-font-family);
   padding: 30px 30px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -43,10 +43,10 @@ p {
 }
 
 .project_description p {
-  text-align: center;
   font-family: var(--default-font-family);
   font-size: 16px;
   opacity: 0.5;
+  padding: 2px 4px;
 }
 
 .btn-branding {
@@ -69,6 +69,16 @@ p {
   margin-top: 20px 20px;
 }
 
+.about-section {
+padding: 160px 20px;
+margin: 20px 80px;
+text-align: center;
+}
+
+.about-section h1 {
+font-size: 60px;
+}
+
 @media (max-width: 900px) {
   .hero container {
     padding: 80px 20px;
@@ -78,11 +88,11 @@ p {
     text-align: center;
     padding: 0;
   }
+
 }
 
 .img-fluid {
   width: 100%;
-  align-items: center;
 }
 
 .feature {
