@@ -5,6 +5,13 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+.mclogo {
+  display: flex;
+  width: 15px;
+  text-decoration: none;
+}
+
+
 h1 {
   font-family: var (--heading-font-family);
 }
@@ -60,6 +67,7 @@ p {
   padding: 20px 30px;
 }
 
+
 .btn-branding-outline {
   background-color: white;
   border-color: #6c63ff;
@@ -67,16 +75,16 @@ p {
   border-radius: 4px;
   text-decoration: none;
   margin-top: 20px 20px;
+  font-weight: 800;
 }
 
 .about-section {
 padding: 160px 20px;
-margin: 20px 80px;
 text-align: center;
 }
 
-.about-section h1 {
-font-size: 60px;
+.about-section-content h1 {
+font-size: 30px;
 }
 
 @media (max-width: 900px) {
