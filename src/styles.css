@@ -6,7 +6,8 @@
 }
 
 .mclogo {
-  display: flex;
+  height: 150px;
+  width: 250px;
   width: 15px;
   text-decoration: none;
 }
