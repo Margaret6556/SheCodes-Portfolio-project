@@ -5,12 +5,30 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-img .mclogo {
+.sclogo {
+  max-width: 150px;
   height: 50px;
-  width: 150px;
-  text-decoration: none;
+  justify-self: center;
+  margin-top: 10px;
+  
 }
-
+nav ul{
+  line-height: 60px;
+  padding: 5px 5px;
+  margin: 0;
+}
+nav li{
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 10px 0px;
+  font-weight: 500;
+  color: #272142;
+}
+nav li:hover,
+nav li.active a {
+color: var(--branding-color);
+}
 
 h1 {
   font-family: var (--heading-font-family);
@@ -67,7 +85,6 @@ p {
   padding: 20px 30px;
 }
 
-
 .btn-branding-outline {
   background-color: white;
   border-color: #6c63ff;
@@ -99,7 +116,7 @@ font-size: 30px;
 
 }
 
-.img-fluid {
+.selfie {
   width: 100%;
 }
 
