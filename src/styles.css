@@ -9,21 +9,25 @@
   max-width: 150px;
   height: 50px;
   justify-self: center;
-  margin-top: 10px;
-  
+  margin-top: 15px;
 }
+.sclogosmall {
+  max-width: 50px;
+  max-height: 50px;
+  margin-top: 10px;
+}
+
 nav ul{
-  line-height: 60px;
+  line-height: 50px;
   padding: 5px 5px;
-  margin: 0;
+
 }
 nav li{
   display: inline;
   text-decoration: none;
-  list-style: none;
-  margin-left: 10px 0px;
+  margin-left: 15px;
   font-weight: 500;
-  color: #272142;
+  color: 
 }
 nav li:hover,
 nav li.active a {
@@ -40,14 +44,16 @@ h2 {
 
 .hero {
   text-align: center;
-  padding: 80px 15px;
+  padding:160px 20px;
   background-color: #F9F7FE;
+  margin: 0;
 }
 
 .hero p{
   font-size: 36px;
   font-weight: bold;
   text-align: center;
+
 }
 
 h1 {
@@ -83,6 +89,11 @@ p {
   border-radius: 10px;
   line-height: 27px;
   padding: 20px 30px;
+  margin-top: 20px;
+}
+
+.btn-branding:hover {
+  color: black;
 }
 
 .btn-branding-outline {
@@ -98,6 +109,7 @@ p {
 .about-section {
 padding: 160px 20px;
 text-align: center;
+background-color: var(--primary-color);
 }
 
 .about-section-content h1 {
@@ -121,10 +133,9 @@ font-size: 30px;
 }
 
 .feature {
-  background-color: #8a2be2;
   text-align: center;
-  color: white;
-  font-size: 28px;
+  color: black;
+  font-size: 24px;
   font-weight: 400;
   border-radius: 5px;
   line-height: 40px;
