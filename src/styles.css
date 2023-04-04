@@ -20,11 +20,10 @@
 nav ul{
   line-height: 50px;
   padding: 20px 0px;
-
+  text-decoration: none;
 }
 nav li{
   display: inline;
-  text-decoration: none;
   list-style: none;
   margin-left: 15px;
   font-weight: 500;
@@ -47,6 +46,10 @@ nav a:active {
   padding: 140px 20px;
   background-color: #F9F7FE;
   margin: 0;
+}
+
+.hero h2 {
+  font-size: 32px;
 }
 
 .hero p{
@@ -76,6 +79,7 @@ p {
 
 .content h1 {
   font-size: 64px;
+  padding: 0px;
 }
 
 .content h2 {
@@ -84,7 +88,7 @@ p {
 }
 
 .content h3{
-  font-size: 18px;
+  font-size: 24px;
   font-family: var(--default-font-family);
 }
 
@@ -103,10 +107,12 @@ p {
   background-color: var(--branding-color);
   font-family: var(--default-font-family);
   color: white;
-  border-radius: 5px;
+  font-size: 18px;
+  border-radius: 4px;
+  text-decoration: none;
   line-height: 27px;
   padding: 15px 30px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .btn-branding:hover {
@@ -114,22 +120,23 @@ p {
 }
 
 .btn-branding-outline {
-
-  border-color: 1px solid #6c63ff;
+  border-color: var(--branding-color);
+  background-color: #F9F7FE;
+  color: var(--branding-color);
   padding: 15px 20px;
   border-radius: 5px;
-  text-decoration: none;
-  margin-top: 30px 20px;
+  margin-top: 30px;
   font-weight: 500;
 }
 
+
 .content-container {
-padding: 120px 20px;
+padding: 60px 20px;
 text-align: center;
 }
 
 @media (max-width: 900px) {
-  .container {
+  .content-container {
     padding: 80px 20px;
   }
 
@@ -157,5 +164,16 @@ text-align: center;
   text-align: center;
   border-radius: 5px;
   padding: 10px 30px;
+}
 
+footer .container{
+  border: solid 1px black;
+  margin: 40px 60px;
+}
+
+footer .contact-box {
+
+}
+footer .social-links a {
+  padding: 60px 20px;
 }
