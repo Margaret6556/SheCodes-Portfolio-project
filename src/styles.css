@@ -31,6 +31,7 @@ nav li{
 
 nav a {
   color: black;
+  text-decoration: none;
 }
 nav a:hover {
 color: var(--branding-color);
@@ -103,6 +104,10 @@ p {
   padding: 2px 4px;
 }
 
+.project_description h2 {
+  font-size: 26px;
+}
+
 .btn-branding {
   background-color: var(--branding-color);
   font-family: var(--default-font-family);
@@ -166,14 +171,17 @@ text-align: center;
   padding: 10px 30px;
 }
 
-footer .container{
-  border: solid 1px black;
-  margin: 40px 60px;
-}
 
 footer .contact-box {
+  background-color: var(--primary-color);
+  margin: 60px 0;
+  border-radius: 5px;
+}
+
+footer .contact-box:hover {
 
 }
+
 footer .social-links a {
-  padding: 60px 20px;
+  padding: 10px 0;
 }
