@@ -37,7 +37,7 @@
     <li><a href="/index.html" > Home</a> </li>
     <li><a href="/about.html"> About</a> </li>
     <li><a href="/projects.html"> Projects</li>
-    <li><a href="/contact.html" class="active"> Contact  </a></li>
+    <li class="active"><a href="/contact.html" > Contact  </a></li>
   </ul>
 </div>
 </nav>
@@ -45,9 +45,29 @@
 
 
 <h1>Let's get in touch!</h1>
-    <div class="content-container container-fluid "> 
-      <div class="row mb-5"> 
-        <div class="col-4 ">
+    
+
+<div class="content-container container-fluid "> 
+<div class="row d-flex justify-content-center">
+  <div class=" col-6 custom-form">
+    <form>
+      <div class="mb-3 ">
+        <label for="exampleInputEmail1" class="form-label mt-5">Email address:</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-described by="emailHelp">
+        <div id="emailHelp" class="text-muted">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="message" > Your message: </label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3">         
+      </div>
+      <button type="submit" class="btn btn-branding">Send</button>
+    </form>
+    </div>
+
+
+    <div class="col-4">
     <h2>Email</h2>
       <a href="mailto: cezarmargaret@gmail.com">cezarmargaret@gmail.com</a>
       <h2>LinkedIn</h2>
@@ -56,23 +76,7 @@
       <a href="https://twitter.com/lofelle">@Lofelle</a>
     </div>
 
-    <div class="col-8 custom-form">
-      <form>
-        <div class="mb-3 ">
-          <label for="exampleInputEmail1" class="form-label mt-5">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label"> Your message </label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">         
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-
-    </div>
+  
     </div>
   </div>
   </body>
