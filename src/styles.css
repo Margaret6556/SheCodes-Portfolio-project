@@ -70,7 +70,6 @@ h2 {
   font-size: 32px;
   font-family: var(--heading-font-family);
   padding: 30px 30px;
-  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -84,7 +83,7 @@ p {
 }
 
 .content h2 {
-  font-size: 24px;
+  font-size: 32px;
   font-family: var(--default-font-family);
 }
 
@@ -94,7 +93,7 @@ p {
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .project_description p {
@@ -107,6 +106,7 @@ p {
 .project_description h2 {
   font-size: 26px;
   font-family: var(--heading-font-family);
+  margin-top: 0px;
 }
 
 .btn-branding {
@@ -114,11 +114,12 @@ p {
   font-family: var(--default-font-family);
   color: white;
   font-size: 18px;
-  border-radius: 4px;
+  border-radius: 5px;
   text-decoration: none;
   line-height: 27px;
   padding: 15px 30px;
   margin-top: 30px;
+  font-weight: 600;
 }
 
 ,.btn-branding:hover {
@@ -132,7 +133,6 @@ p {
   text-decoration: none;
   padding: 15px 30px;
   border-radius: 5px;
-  margin-top: 30px;
   font-weight: 600;
 }
 
@@ -142,7 +142,7 @@ p {
 }
 
 .content-container {
-padding: 60px 20px;
+padding: 40px 20px;
 text-align: center;
 }
 
@@ -172,7 +172,7 @@ text-align: center;
 .custom-form {
   font-weight: 500;
   margin-top: 34px;
-  border: 2px solid gray;
+  border: 2px solid var(--branding-color);
   border-style:ridge;
   text-align: left;
   border-radius: 10px;
@@ -187,7 +187,6 @@ footer .contact-box {
   background-color: var(--primary-color);
   margin: 60px 0;
   border-radius: 5px;
-  border-color: solid 1px black !important;
 }
 
 footer .contact:hover {
@@ -196,20 +195,22 @@ footer .contact:hover {
 footer .social-links a {
   margin: 0 20px;
   padding: 20px 22px;
+  color: var(--branding-color);
   background-color: var(--primary-color);
   border-radius: 60%;
   transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
-  color: var(--branding-color);
+  color: var(--primary-color);
+  background-color: var(--branding-color);
 }
 
 footer .email-link {
-  font-size: 24px;
+  font-size: 20px;
+  text-decoration: none!important;
 }
 
 footer .email-link:hover {
   color: black;
-  text-decoration: none;
 }
