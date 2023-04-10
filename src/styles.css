@@ -122,7 +122,7 @@ p {
   font-weight: 600;
 }
 
-,.btn-branding:hover {
+.btn-branding:hover {
     color: black;
 }
 .btn-branding-outline {
@@ -213,4 +213,8 @@ footer .email-link {
 
 footer .email-link:hover {
   color: black;
+}
+
+.contact-footer container {
+  
 }
